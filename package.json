@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "echo 'Using CDN, no build needed'"
+    }
+}
