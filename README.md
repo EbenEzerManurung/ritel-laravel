@@ -47,7 +47,6 @@ The main goals of Laravel 13.9.0 Ritel are:
 ### Frontend
 
 * Laravel 13.9.0
-* Laravel 13.9.0 Router
 * Tailwind CSS
 * Heroicons
 * SweetAlert2
