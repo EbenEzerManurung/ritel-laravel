@@ -1,6 +1,6 @@
-# Laravel 13.9.0 Ritel
+# Ritel Laravel 
 
-A modern retail management system built with Laravel 13.9.0 and Vite, designed to help businesses manage customers, products, and sales transactions efficiently through a responsive and user-friendly interface.
+A modern retail management system built with Laravel 13.9.0, designed to help businesses manage customers, products, and sales transactions efficiently through a responsive and user-friendly interface.
 
 ## Backend API
 
@@ -14,7 +14,6 @@ https://github.com/EbenEzerManurung/API_GOLANG
 The Golang API provides database connectivity, authentication services, customer management, product management, transaction processing, and other business-related operations required by the Laravel 13.9.0 Ritel application.
 
 ![Laravel](https://img.shields.io/badge/Laravel 13.9.0-blue)
-![Vite](https://img.shields.io/badge/Vite-Latest-purple)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8)
 ![PWA](https://img.shields.io/badge/PWA-Enabled-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -25,7 +24,7 @@ The Golang API provides database connectivity, authentication services, customer
 
 Laravel 13.9.0 Ritel is a Progressive Web Application (PWA) that provides a complete retail management solution for small and medium-sized businesses. The application offers customer management, product inventory management, transaction processing, reporting, and role-based authentication.
 
-The project aims to demonstrate modern frontend development practices using Laravel 13.9.0, Vite, Tailwind CSS, and Progressive Web App technologies while delivering practical business functionality.
+The project aims to demonstrate modern frontend development practices using Laravel 13.9.0,Tailwind CSS, and Progressive Web App technologies while delivering practical business functionality.
 
 ---
 
@@ -48,7 +47,6 @@ The main goals of Laravel 13.9.0 Ritel are:
 ### Frontend
 
 * Laravel 13.9.0
-* Vite
 * Laravel 13.9.0 Router
 * Tailwind CSS
 * Heroicons
@@ -262,27 +260,30 @@ Add screenshots of:
 screenshots:
 # \# Lighthouse
 
-# <img width="832" height="229" alt="image" src="https://github.com/user-attachments/assets/669d9bae-4d1e-4687-a7d2-b16d8fcb419c" />
-
+# <img width="894" height="199" alt="image" src="https://github.com/user-attachments/assets/6760ec51-1787-402f-99d8-b91ffb9b5cf1" />
 
 # \# Dashboard
 
-# <img width="1918" height="891" alt="image" src="https://github.com/user-attachments/assets/90ff8dae-2210-4e0e-a7e1-ad1eeb1ee25b" />
+# <img width="1912" height="871" alt="image" src="https://github.com/user-attachments/assets/bc5cc015-2f88-4dee-ae11-a490ddf68095" />
 
-<img width="1918" height="931" alt="image" src="https://github.com/user-attachments/assets/86bbaecb-e4b5-4721-bbe4-300fe2b9ba50" />
+<img width="1876" height="841" alt="image" src="https://github.com/user-attachments/assets/b989ce19-f76e-447c-b213-24aca57ae4da" />
+
 
 # \# Customer
-<img width="1876" height="939" alt="image" src="https://github.com/user-attachments/assets/6d43a2c1-6732-4e62-b827-7014648b6cf1" />
+<img width="1918" height="903" alt="image" src="https://github.com/user-attachments/assets/2ce0fd44-96c3-46d8-b163-35c4f9d2fb49" />
+
 
 # \# Produk
-<img width="1912" height="925" alt="image" src="https://github.com/user-attachments/assets/1b2fb797-63b3-4993-91bd-1803729152ea" />
+<img width="1914" height="924" alt="image" src="https://github.com/user-attachments/assets/f652c7f4-94eb-47bc-9455-2ff59894966e" />
+
 
 # \# Transaksi
-<img width="1876" height="943" alt="image" src="https://github.com/user-attachments/assets/2b03c657-3ecf-4f0e-83a3-042865b50a2c" />
+<img width="1912" height="933" alt="image" src="https://github.com/user-attachments/assets/c6dcb513-eac2-49bc-b074-faa1c34c3f23" />
 
 
 # \# Riwayat Transaksi (Transaction history)
-<img width="1909" height="955" alt="image" src="https://github.com/user-attachments/assets/88bbee33-b1e4-4aa1-9040-aacbf5a84f4a" />
+<img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/ced84e81-9601-4239-b20b-70cbb5b20968" />
+
 
 
 ```
