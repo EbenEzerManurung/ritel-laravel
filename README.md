@@ -214,13 +214,13 @@ Progressive Web App
 Clone the repository:
 
 ```bash
-git clone https://github.com/EbenEzerManurung/Laravel 13.9.0-ritel.git
+git clone https://github.com/EbenEzerManurung/ritel-laravel.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd Laravel 13.9.0-ritel
+cd ritel-laravel
 ```
 
 Install dependencies:
