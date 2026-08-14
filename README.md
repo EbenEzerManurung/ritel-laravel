@@ -1,6 +1,6 @@
 # ⛪️ Church Schedule System - Misa Paroki
 
-[![Laravel](https://img.shields.io/badge/Laravel-13.9.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-13.14.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org/)
 [![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
@@ -11,7 +11,7 @@
 
 ## 📋 Overview
 
-**Church Schedule System - Misa Paroki** is a web-based Progressive Web Application (PWA) built with **Laravel 13.9.0** and **Tailwind CSS**, designed to manage worship schedules, duty assignments, and service personnel coordination for parish churches.
+**Church Schedule System - Misa Paroki** is a web-based Progressive Web Application (PWA) built with **Laravel 13.14.0** and **Tailwind CSS**, designed to manage worship schedules, duty assignments, and service personnel coordination for parish churches.
 
 The system enables super administrators, diocese administrators, church administrators, and regular users to efficiently organize liturgical services, track assignments, and monitor service participation across multiple parishes.
 
@@ -37,7 +37,7 @@ The system enables super administrators, diocese administrators, church administ
 ### Backend
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| **Laravel** | 13.9.0 | PHP Framework – MVC Architecture, Routing, ORM, Authentication |
+| **Laravel** | 13.14.0 | PHP Framework – MVC Architecture, Routing, ORM, Authentication |
 | **MySQL** | 8.0+ | Relational Database |
 | **Eloquent ORM** | – | Database interaction using Active Record pattern |
 
@@ -148,99 +148,103 @@ The system enables super administrators, diocese administrators, church administ
 
 ---
 
-## 🗂️ Application Architecture
-
-The application follows a **modular MVC architecture** with clear separation of concerns.
-Church Schedule System - Misa Paroki
+Sistem Penjadwalan & Penugasan Gereja – Misa Paroki
 │
-├── 📁 Presentation Layer (Frontend)
-│ ├── Blade Templates (.blade.php)
-│ │ ├── layouts/
-│ │ │ └── app.blade.php (Main layout)
-│ │ ├── dashboard/
-│ │ │ └── index.blade.php
-│ │ ├── assignments/
-│ │ │ ├── index.blade.php
-│ │ │ └── show.blade.php
-│ │ ├── schedules/
-│ │ │ ├── index.blade.php
-│ │ │ └── create.blade.php
-│ │ ├── churches/
-│ │ │ └── index.blade.php
-│ │ └── users/
-│ │ └── index.blade.php
-│ ├── Tailwind CSS (styles/app.css)
-│ ├── Alpine.js (interactivity)
-│ ├── Chart.js (visualization)
-│ └── PWA Assets
-│ ├── manifest.json
-│ ├── service-worker.js
-│ └── icons/
+├── 📁 Lapisan Presentasi (Frontend)
+│   ├── 📄 Blade Templates (resources/views/)
+│   │   ├── layouts/
+│   │   │   └── app.blade.php          # Layout utama
+│   │   ├── dashboard/
+│   │   │   └── index.blade.php        # Halaman dashboard
+│   │   ├── assignments/
+│   │   │   ├── index.blade.php        # Daftar penugasan
+│   │   │   └── show.blade.php         # Detail penugasan
+│   │   ├── schedules/
+│   │   │   ├── index.blade.php        # Daftar jadwal
+│   │   │   └── create.blade.php       # Form tambah jadwal
+│   │   ├── churches/
+│   │   │   └── index.blade.php        # Daftar gereja
+│   │   └── users/
+│   │       └── index.blade.php        # Manajemen pengguna
+│   │
+│   ├── 🎨 Aset Frontend
+│   │   ├── Tailwind CSS (resources/css/app.css)
+│   │   ├── Alpine.js (interaktivitas ringan)
+│   │   ├── Chart.js (visualisasi grafik)
+│   │   └── SweetAlert2 (notifikasi & dialog)
+│   │
+│   └── 📱 Aset PWA
+│       ├── manifest.json              # Konfigurasi aplikasi terinstal
+│       ├── service-worker.js          # Dukungan offline
+│       └── icons/                     # Ikon aplikasi
 │
-├── 📁 Application Layer (Backend - Laravel)
-│ ├── Controllers (app/Http/Controllers/)
-│ │ ├── Admin/
-│ │ │ ├── DashboardController.php
-│ │ │ ├── DioceseController.php
-│ │ │ ├── ChurchController.php
-│ │ │ └── UserController.php
-│ │ ├── AssignmentController.php
-│ │ ├── ScheduleController.php
-│ │ ├── DutyController.php
-│ │ └── Auth/
-│ │ └── LoginController.php
-│ ├── Models (app/Models/)
-│ │ ├── User.php (Eloquent Model)
-│ │ ├── Diocese.php
-│ │ ├── Church.php
-│ │ ├── Schedule.php
-│ │ ├── Duty.php
-│ │ ├── DutyAssignment.php
-│ │ └── Role.php
-│ ├── Middleware (app/Http/Middleware/)
-│ │ ├── Authenticate.php
-│ │ ├── IsAdmin.php
-│ │ ├── IsDioceseAdmin.php
-│ │ └── IsChurchAdmin.php
-│ ├── Routes (routes/)
-│ │ ├── web.php (Main routes)
-│ │ └── api.php (API routes)
-│ ├── Policies (app/Policies/)
-│ │ ├── ChurchPolicy.php
-│ │ └── AssignmentPolicy.php
-│ ├── Requests (app/Http/Requests/)
-│ │ ├── StoreAssignmentRequest.php
-│ │ └── UpdateAssignmentRequest.php
-│ └── Exceptions (app/Exceptions/)
+├── 📁 Lapisan Aplikasi (Backend – Laravel)
+│   ├── 🎮 Controller (app/Http/Controllers/)
+│   │   ├── Admin/
+│   │   │   ├── DashboardController.php
+│   │   │   ├── DioceseController.php      # Kelola keuskupan
+│   │   │   ├── ChurchController.php       # Kelola gereja
+│   │   │   └── UserController.php         # Kelola pengguna
+│   │   ├── AssignmentController.php       # Kelola penugasan
+│   │   ├── ScheduleController.php         # Kelola jadwal ibadah
+│   │   ├── DutyController.php             # Kelola jenis tugas
+│   │   └── Auth/
+│   │       └── LoginController.php        # Autentikasi
+│   │
+│   ├── 🧱 Model (app/Models/)
+│   │   ├── User.php                 # Model pengguna
+│   │   ├── Diocese.php              # Model keuskupan
+│   │   ├── Church.php               # Model gereja
+│   │   ├── Schedule.php             # Model jadwal ibadah
+│   │   ├── Duty.php                 # Model tugas pelayanan
+│   │   ├── DutyAssignment.php       # Model penugasan
+│   │   └── Role.php                 # Model peran
+│   │
+│   ├── 🛡️ Middleware (app/Http/Middleware/)
+│   │   ├── Authenticate.php         # Proteksi login
+│   │   ├── IsAdmin.php              # Hanya Super Admin
+│   │   ├── IsDioceseAdmin.php       # Hanya Admin Keuskupan
+│   │   └── IsChurchAdmin.php        # Hanya Admin Gereja
+│   │
+│   ├── 🚏 Rute (routes/)
+│   │   ├── web.php                  # Rute utama (web)
+│   │   └── api.php                  # Rute API (jika ada)
+│   │
+│   ├── 🔐 Kebijakan (app/Policies/)
+│   │   ├── ChurchPolicy.php         # Otorisasi akses gereja
+│   │   └── AssignmentPolicy.php     # Otorisasi penugasan
+│   │
+│   └── 📝 Validasi (app/Http/Requests/)
+│       ├── StoreAssignmentRequest.php    # Validasi simpan penugasan
+│       └── UpdateAssignmentRequest.php   # Validasi update penugasan
 │
-├── 📁 Data Layer
-│ ├── Migrations (database/migrations/)
-│ │ ├── create_users_table.php
-│ │ ├── create_dioceses_table.php
-│ │ ├── create_churches_table.php
-│ │ ├── create_schedules_table.php
-│ │ ├── create_duties_table.php
-│ │ └── create_duty_assignments_table.php
-│ ├── Seeders (database/seeders/)
-│ │ ├── DatabaseSeeder.php
-│ │ ├── RoleSeeder.php
-│ │ ├── UserSeeder.php
-│ │ └── DioceseSeeder.php
-│ └── Factories (database/factories/)
-│ ├── ChurchFactory.php
-│ └── AssignmentFactory.php
+├── 📁 Lapisan Data
+│   ├── 📄 Migrasi (database/migrations/)
+│   │   ├── create_users_table.php
+│   │   ├── create_dioceses_table.php
+│   │   ├── create_churches_table.php
+│   │   ├── create_schedules_table.php
+│   │   ├── create_duties_table.php
+│   │   └── create_duty_assignments_table.php
+│   │
+│   ├── 🌱 Seeder (database/seeders/)
+│   │   ├── DatabaseSeeder.php
+│   │   ├── RoleSeeder.php
+│   │   ├── UserSeeder.php
+│   │   └── DioceseSeeder.php
+│   │
+│   └── 🏭 Factory (database/factories/)
+│       ├── ChurchFactory.php
+│       └── AssignmentFactory.php
 │
 └── 📁 Database
-└── MySQL 8.0+
-├── users
-├── dioceses
-├── churches
-├── schedules
-├── duties
-└── duty_assignments
-
-text
-
+    └── 🗄️ MySQL 8.0+
+        ├── users
+        ├── dioceses
+        ├── churches
+        ├── schedules
+        ├── duties
+        └── duty_assignments
 ### 🔄 Data Flow
 User Request → Routes (web.php)
 
