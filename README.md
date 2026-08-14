@@ -193,8 +193,7 @@ Add screenshots of:
 * Product Management
 * Transaction Page
 * Transaction History
-```
-```
+
 # Screenshots
 
 # \# Lighthouse:
