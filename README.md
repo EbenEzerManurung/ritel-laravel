@@ -218,7 +218,6 @@ Add screenshots of:
 # \# Riwayat Transaksi (Transaction history)
 <img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/96dbc1f1-7ab7-439d-b913-b44d1f69c780" />
 
-```
 # License
 
 MIT License
@@ -228,6 +227,7 @@ MIT License
 # Author
 
 **Eben Nezer Manurung**
+
 
 ---
 
