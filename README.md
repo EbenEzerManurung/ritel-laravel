@@ -181,6 +181,7 @@ npm run dev
 php artisan ser
 or by port
 php artisan ser --port=9000
+```
 
 ## Screenshots
 
@@ -204,6 +205,29 @@ Add screenshots of:
 
 <img width="1876" height="841" alt="image" src="https://github.com/user-attachments/assets/f289f1da-c46b-4945-ab10-5f52beabf144" />
 
+# \# Customer
+<img width="1918" height="903" alt="image" src="https://github.com/user-attachments/assets/b21f4021-d8e3-45e6-92ce-598e2e906843" />
+
+# \# Produk
+<img width="1914" height="924" alt="image" src="https://github.com/user-attachments/assets/cc169e41-b3a2-46a4-89c1-306db770fa8f" />
+
+# \# Transaksi
+<img width="1912" height="933" alt="image" src="https://github.com/user-attachments/assets/832a6fa3-b689-4af6-aa12-cee06514c9b5" />
+
+
+# \# Riwayat Transaksi (Transaction history)
+<img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/96dbc1f1-7ab7-439d-b913-b44d1f69c780" />
+
+```
+# License
+
+MIT License
+
+---
+
+# Author
+
+**Eben Nezer Manurung**
 
 
 
