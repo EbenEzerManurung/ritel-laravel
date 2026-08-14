@@ -138,3 +138,49 @@ Real-time business intelligence at a glance:
 ---
 
 ## 🗂️ Application Architecture
+
+The application follows a **modular MVC (Model-View-Controller)** architecture with clear separation of concerns between presentation, business logic, and data.
+
+### Steps
+
+Clone the repository
+   ```bash
+   git clone https://github.com/EbenEzerManurung/Church_schedulesystemMisa_Paroki_LaravelPWA.git
+   cd Church_schedulesystemMisa_Paroki_LaravelPWA
+
+   Navigate to the project directory:
+
+```bash
+cd Church_schedulesystemMisa_Paroki_LaravelPWA
+```
+
+Restore dependencies:
+
+```bash
+composer install
+```
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+Migrate and Seeder:
+
+```bash
+php artisan migrate --seed
+```
+
+Run the application:
+```bash
+ npm install
+```
+```bash
+npm run dev
+```
+
+```bash
+php artisan ser
+or by port
+php artisan ser --port=9000
+
+#Screenshot:
+```
