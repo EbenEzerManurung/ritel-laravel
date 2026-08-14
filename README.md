@@ -1,1 +1,140 @@
 
+# 🛍️ Laravel Ritel – Retail Management System
+
+[![Laravel](https://img.shields.io/badge/Laravel-13.9.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
+---
+
+## 📋 Overview
+
+**Laravel Ritel** is a full-stack **Progressive Web Application (PWA)** built with **Laravel 13.9.0** and **Tailwind CSS**, designed as a comprehensive retail management solution for small and medium-sized businesses.
+
+The system streamlines daily operations by centralizing customer management, product inventory, transaction processing, sales reporting, and role-based access control into a single, intuitive platform. With **offline-first capabilities** and **mobile-installable functionality**, it delivers a native app experience directly through the browser.
+
+---
+
+## 🎯 Objectives
+
+| Objective | Description |
+|-----------|-------------|
+| **Operational Efficiency** | Simplify and accelerate daily retail workflows |
+| **Transaction Accuracy** | Automate calculations and stock validation to reduce human error |
+| **Data Centralization** | Unify customer, product, and sales data in one secure system |
+| **Access Control** | Implement role-based authentication (Admin / Cashier) |
+| **Cross-Platform** | Support desktop, tablet, and mobile devices seamlessly |
+| **Offline Resilience** | Enable offline usage through Service Worker caching |
+| **Modern Architecture** | Demonstrate best practices in Laravel 13 + Tailwind CSS development |
+
+---
+
+## 🧱 Technology Stack
+
+### Backend
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Laravel** | 13.9.0 | PHP Framework – MVC Architecture, Routing, ORM, Authentication |
+| **MySQL** | 8.0+ | Relational Database – Data Persistence |
+| **Eloquent ORM** | – | Active Record Pattern for Database Interactions |
+
+### Frontend
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Tailwind CSS** | 4.x | Utility-first CSS Framework – Responsive UI |
+| **Blade Templates** | – | Laravel's Templating Engine |
+| **Alpine.js** | – | Lightweight JavaScript Framework for Interactivity |
+| **Heroicons** | – | SVG Icon Library |
+| **SweetAlert2** | – | Beautiful Alert & Modal Dialogs |
+
+### Progressive Web App (PWA)
+| Feature | Implementation |
+|---------|----------------|
+| **Service Workers** | Background caching for offline support |
+| **Web App Manifest** | `manifest.json` – Installable on Desktop & Mobile |
+| **Offline Mode** | Cached assets and API fallback strategies |
+| **App Icon** | Custom "R" branding icon |
+
+### Data Export
+| Format | Library |
+|--------|---------|
+| **Excel (.xlsx)** | Maatwebsite Laravel Excel |
+
+---
+
+## ✨ Features
+
+### 🔐 Multi-Role Authentication
+- Secure Login / Logout
+- Role-Based Route Protection (Middleware)
+- Session Management
+- Two User Roles:
+  - **Admin** – Full system access
+  - **Cashier** – Limited to transaction and customer operations
+
+### 📊 Dashboard
+Real-time business intelligence at a glance:
+- Total Customers
+- Total Products
+- Total Transactions
+- Total Revenue
+
+### 👥 Customer Management
+| Feature | Description |
+|---------|-------------|
+| CRUD Operations | Create, Read, Update, Delete |
+| Search | By Name, Customer Code, or Phone Number |
+| Pagination | 10 records per page |
+| Export | Export customer list to Excel |
+| Validation | Server-side and client-side validation |
+| Soft Delete | Mark as inactive without permanent removal |
+
+### 📦 Product Management
+| Feature | Description |
+|---------|-------------|
+| CRUD Operations | Create, Read, Update, Delete |
+| Search | By Product Name, Code, or Category |
+| Pricing Types | Regular (R), Special Weekday (SW), Discount (D) |
+| Discount Rates | 0%, 25%, 35% respectively |
+| Export | Export product list to Excel |
+
+### 🛒 Transaction Management
+- Select Customer (existing or new)
+- Add Multiple Products to Cart
+- Adjust Quantities in Real-Time
+- Automatic Price & Total Calculation
+- Stock Validation (prevents overselling)
+- Multiple Payment Methods:
+  - 💵 Cash
+  - 📱 QRIS
+  - 🏦 Bank Transfer
+- Generate Transaction Receipt
+
+### 📜 Transaction History
+- View All Transaction Records
+- Search Transactions
+- Pagination Support
+- Export to Excel
+
+### 📱 Progressive Web App (PWA)
+- Installable on **Desktop** (Chrome, Edge)
+- Installable on **Mobile** (Android, iOS via Safari)
+- Offline Support with Service Workers
+- Fast Loading with Caching Strategies
+- Custom "R" Application Icon
+- Native App-like Experience
+
+### 🎨 Modern UI/UX
+- Fully Responsive Design (Mobile-First)
+- Tailwind CSS Utility Styling
+- Loading Spinners
+- SweetAlert2 Notifications
+- Heroicons
+- Gradient Design Elements
+- Smooth Transitions & Animations
+
+---
+
+## 🗂️ Application Architecture
