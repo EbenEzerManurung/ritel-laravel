@@ -182,5 +182,29 @@ php artisan ser
 or by port
 php artisan ser --port=9000
 
-#Screenshot:
+## Screenshots
+
+Add screenshots of:
+
+* Login Page
+* Dashboard
+* Customer Management
+* Product Management
+* Transaction Page
+* Transaction History
+
+
+#Screenshot
 ```
+# \# Lighthouse:
+<img width="894" height="199" alt="image" src="https://github.com/user-attachments/assets/8cbf36d6-a1f9-484a-a412-7d287f1e9fde" />
+
+# \# Dashboard:
+<img width="1912" height="871" alt="image" src="https://github.com/user-attachments/assets/3897ac4e-7c11-414c-9b31-e19a90e2a8a1" />
+
+<img width="1876" height="841" alt="image" src="https://github.com/user-attachments/assets/f289f1da-c46b-4945-ab10-5f52beabf144" />
+
+
+
+
+
