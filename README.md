@@ -194,9 +194,9 @@ Add screenshots of:
 * Transaction Page
 * Transaction History
 ```
-
-#Screenshot
 ```
+# Screenshots
+
 # \# Lighthouse:
 <img width="894" height="199" alt="image" src="https://github.com/user-attachments/assets/8cbf36d6-a1f9-484a-a412-7d287f1e9fde" />
 
