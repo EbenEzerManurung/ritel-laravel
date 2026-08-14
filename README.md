@@ -193,7 +193,7 @@ Add screenshots of:
 * Product Management
 * Transaction Page
 * Transaction History
-
+```
 
 #Screenshot
 ```
@@ -214,7 +214,6 @@ Add screenshots of:
 # \# Transaksi
 <img width="1912" height="933" alt="image" src="https://github.com/user-attachments/assets/832a6fa3-b689-4af6-aa12-cee06514c9b5" />
 
-
 # \# Riwayat Transaksi (Transaction history)
 <img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/96dbc1f1-7ab7-439d-b913-b44d1f69c780" />
 
@@ -228,8 +227,6 @@ MIT License
 
 **Eben Nezer Manurung**
 
-
----
 
 
 
