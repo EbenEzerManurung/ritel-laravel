@@ -9,6 +9,17 @@
 
 ---
 
+## Backend API
+
+This application is designed to work with a Golang REST API backend for data management, authentication, and database operations.
+
+To connect this frontend application to the backend service, please refer to the following repository:
+
+Backend API Repository:
+https://github.com/EbenEzerManurung/API_GOLANG
+
+The Golang API provides database connectivity, authentication services, customer management, product management, transaction processing, and other business-related operations required by the Ritel Laravel application.
+
 ## 📋 Overview
 
 **Laravel Ritel** is a full-stack **Progressive Web Application (PWA)** built with **Laravel 13.9.0** and **Tailwind CSS**, designed as a comprehensive retail management solution for small and medium-sized businesses.
