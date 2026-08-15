@@ -66,8 +66,8 @@ The system streamlines daily operations by centralizing customer management, pro
 ## 🧱 Technology Stack
 
 ### Backend
-| Technology | Version | |
-|------------|---------|---------|
+| Technology | Version |
+|------------|---------|
 | **Go (Gin Framework)** |
 | **MySQL** | 8.0+ |
 
