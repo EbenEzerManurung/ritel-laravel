@@ -4,6 +4,9 @@
 [![Laravel](https://img.shields.io/badge/Laravel-13.9.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+![RESTful API](https://img.shields.io/badge/API-RESTful-success?style=for-the-badge)
+![Go](https://img.shields.io/badge/Go-1.22-00ADD8?style=for-the-badge\&logo=go)
+![Gin](https://img.shields.io/badge/Gin-Web_Framework-00ADD8?style=for-the-badge)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
@@ -22,9 +25,27 @@ The Golang API provides database connectivity, authentication services, customer
 
 ## 📋 Overview
 
-**Laravel Ritel** is a full-stack **Progressive Web Application (PWA)** built with **Laravel 13.9.0** and **Tailwind CSS**, designed as a comprehensive retail management solution for small and medium-sized businesses.
+**Laravel Ritel** is a full-stack **Progressive Web Application (PWA)** built with **Laravel 13.9.0** and **Tailwind CSS**, **Go (Gin Framework)**, **MySQL**,designed as a comprehensive retail management solution for small and medium-sized businesses.
 
 The system streamlines daily operations by centralizing customer management, product inventory, transaction processing, sales reporting, and role-based access control into a single, intuitive platform. With **offline-first capabilities** and **mobile-installable functionality**, it delivers a native app experience directly through the browser.
+
+---
+
+# 🏗 Project Architecture
+
+```text
+                 Progressive Web App (PWA)
+                               │
+                        Laravel 13 Frontend
+                               │
+                     RESTful API (JSON over HTTP)
+                               │
+                  Go Backend (Gin Framework)
+                               │
+                            GORM ORM
+                               │
+                             MySQL
+```
 
 ---
 
@@ -47,9 +68,10 @@ The system streamlines daily operations by centralizing customer management, pro
 ### Backend
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| **Laravel** | 13.9.0 | PHP Framework – MVC Architecture, Routing, ORM, Authentication |
-| **MySQL** | 8.0+ | Relational Database – Data Persistence |
-| **Eloquent ORM** | – | Active Record Pattern for Database Interactions |
+| **Go (Gin Framework)** |
+| **MySQL** | 8.0+ |
+
+
 
 ### Frontend
 | Technology | Version | Purpose |
